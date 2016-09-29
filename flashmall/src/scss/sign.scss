@@ -1,0 +1,96 @@
+.sign{
+  @include setting(550px,360px);
+  @include distance(135px,2px);
+  float:left;
+}
+.cut{
+  @include setting(528px,40px);
+  border-bottom:1px solid #dddddd;
+}
+
+.under{
+  @include setting(528px,320px);
+  display:block;
+}
+.under1{
+  @include setting(528px,320px);
+  display:none;
+}
+
+.phoneSign{
+  @include setting(88px,41px);
+  @include distance(1px);
+  float:left;
+  border-radius:8px 8px 0 0;
+  border : 1px solid #dddddd;
+  border-bottom:1px solid #fff;
+}
+
+.mailSign{
+  @include setting(88px,41px);
+  @include distance(1px);
+  float:left;
+  border-radius:8px 8px 0 0;
+  border:none;
+  border-bottom:1px solid #dddddd;
+}
+
+.phone{
+  @include distance(50px,5px,0,5px);
+}
+
+input{
+  @include distance(50px);
+  border-radius : 5px;
+}
+.tel{
+  @include setting(342px,32px,url(../images/login/inputBg.jpg) repeat);
+}
+
+.verify{
+  @include setting(170px,32px,url(../images/login/inputBg.jpg) repeat);
+  float:left;
+}
+.verifyNum{
+  @include setting(120px,34px,#5cb85c);
+  @include distance(20px);
+  color:#fff;
+  text-align:center;
+  line-height:34px;
+  border-radius:5px;
+  float:left;
+}
+.hint{
+  @include distance(55px,10px,0,5px);
+  color:$color;
+  a{
+    color:#333333;
+  }
+}
+
+.yet{
+  @include distance(55px,10px);
+  float:left;
+}
+.read{
+  @include distance(5px,10px);
+  float:left;
+  a{
+    color:$color;
+  }
+}
+
+button{
+  @include distance(50px,15px);
+}
+.btnSign{
+  @include setting(340px,32px,#5cb85c);
+  border-radius:5px;
+  color: #fff;
+}
+.btnLogin{
+  @include setting(340px,32px);
+  border:1px solid #ccc;
+  border-radius:5px;
+  color: #000;
+}

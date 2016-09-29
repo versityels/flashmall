@@ -1,0 +1,92 @@
+.WeChats{
+  @include setting($width,150px);
+  @include distance(0,18px);
+  .WeChat{
+    @include setting(317px,150px);
+    float:left;
+    h2{
+      @include distance(25px,15px);
+    }
+    dl{
+      @include distance(30px,28px);
+      dt{
+        float:left;
+      }
+      dd{
+        @include setting(170px,75px);
+        @include distance(10px);
+        line-height:18px;
+        float:left;
+      }
+    }
+    .dl1{
+      @include setting(280px,40px);
+      @include distance(10px,20px);
+      dd{
+        @include setting(220px,40px);
+      }
+    }
+    .dl2{
+      @include setting(280px,40px);
+      @include distance(10px,5px);
+      dd{
+        @include setting(220px,40px);
+      }
+    }
+  }
+}
+
+
+.bottom{
+  @include setting($width,275px,$bgColor);
+  overflow:hidden;
+  .up{
+    @include setting($width,140px,$bgColor);
+  }
+  dl{
+    @include setting(211px,140px,$bgColor);
+    float:left;
+    dt{
+      @include distance(75px,20px);
+    }
+    dd{
+      @include setting(211px,75px,$bgColor);
+      h3{
+        @include distance(0,10px);
+        text-align:center;
+      }
+      p{
+        line-height:20px;
+        text-align:center;
+      }
+    }
+  }
+  .lastUl{
+    @include setting(400px,25px,$bgColor);
+    @include distance(470px,20px);
+    li{
+      color:#5a5a5a;
+      padding:0 15px;
+      cursor: pointer;
+      border-right:1px solid #5a5a5a;
+    }
+    .lastLi{
+      border-right:none;
+    }
+  }
+  .lastP{
+    line-height:18px;
+    text-align:center;
+    color:#333333;
+    span{
+      font-size:18px;
+    }
+  }
+  .Commerce{
+    @include setting(50px,50px,$bgColor);
+    @include distance(600px,5px);
+    img{
+      @include distance(5px);
+    }
+  }
+}

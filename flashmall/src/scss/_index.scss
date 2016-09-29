@@ -1,0 +1,443 @@
+#container{
+  @include setting($width,auto,$bgColor);
+}
+
+
+//顶部 搜索 登录 注册按钮
+.top{
+  @include setting($width,90px,#fff url(../images/index/logo.jpg) no-repeat);
+  @include pos(relative);
+  .search{
+    @include setting(334px,32px,url(../images/index/search-bg.jpg) repeat-x);
+    @include pos(absolute,420px,25px);
+    border:1px solid #ccc;
+  }
+  .searchBtn{
+    @include setting(33px,32px,#f95c76 url(../images/index/search-btn.jpg) no-repeat);
+    @include pos(absolute,722px,26px);
+    border:1px solid #48d8fb;
+  }
+  .keyWord{
+    @include setting(300px,20px,#fff);
+    @include pos(absolute,420px,60px);
+  }
+  img{
+    @include distance(900px,10px);
+  }
+  h3{
+    @include setting(200px,20px,#fff);
+    @include distance(980px,-70px);
+    font-size:14px;
+    color:$color;
+  }
+  a{
+    @include setting(40px,20px,#fff);
+    color:$color;
+    text-align:center;
+    display:inline-block;
+  }
+  .aLog{
+    @include distance(980px,15px);
+  }
+}
+
+//菜单
+.menu{
+  @include setting($width,45px,$color);
+  @include pos(relative);
+  ul{
+    @include distance(55px,0px);
+    li a{
+      display:block;
+      color : #fff;
+      font-size : 16px;
+      font-weight : 600;
+      padding : 0 25px;
+      line-height:45px;
+    }
+  };
+  .snackUl{
+    @include setting(115px,135px,$color);
+    z-index:1;
+    clear:both;
+    display:none;
+    li{
+      cursor: pointer;
+      color : #fff;
+      font-size : 14px;
+      padding : 0 25px;
+      line-height:45px;
+      clear:both;
+    }
+  }
+  .snackUl1{
+    @include pos(absolute,82px,45px);
+  }
+  .snackUl2{
+    @include setting(115px,180px,$color);
+    @include pos(absolute,428px,45px);
+  }
+  .snackUl3{
+    @include pos(absolute,543px,45px);
+  }
+}
+
+
+.picture{
+  @include setting($width,$picHeight,$bgColor);
+  @include distance(0px,10px);
+  .picLeft{
+    @include setting($picWidth,$picHeight);
+    @include distance(10px,0,10px);
+    float:left;
+    p{
+      @include distance(50px);
+      font-size:18px;
+      color:#5a5a5a;
+    }
+    .everyDay{
+      @include setting(78px,22px,#000);
+      @include distance(0,7px);
+      float:left;
+      color:#fff;
+      text-align:center;
+      line-height:22px;
+    }
+    .discount{
+      @include setting(96px,42px);
+      @include pos(relative);
+      @include distance(0,5px);
+      float:right;
+      img{
+        @include pos(absolute,42px,0)
+      }
+    }
+    .overDue{
+      @include pos(absolute,10px,20px)
+    }
+    .buyBtn{
+      @include setting(177px,31px,$color);
+      @include distance(60px,74px);
+      .lightningBuy{
+        @include setting(174px,28px,$color);
+        @include distance(1px,1px);
+        border:1px solid #48d8fb;
+      }
+    }
+  }
+  .picCenter{
+    @include setting(640px,$picHeight,$bgColor);
+    float:left;
+  }
+  .picRight{
+    @include setting($picWidth,$picHeight);
+    @include distance(0,0,10px);
+    float:right;
+    .friend{
+      @include distance(0,15px);
+      text-align:center;
+      font-size:18px;
+    }
+    img{
+      @include distance(120px,15px);
+    }
+    .master{
+      @include distance(0,7px);
+      text-align:center;
+      color:#999999;
+    }
+    .time{
+      @include distance(0,25px);
+      text-align:center;
+      color:#666666;
+    }
+  }
+}
+
+.lordCenter{
+  @include setting($width,390px,$bgColor);
+  @include pos(relative);
+  @include distance(0,25px);
+  .headPic{
+    @include setting($picWidth,363px);
+    @include distance(10px);
+    float:left;
+    overflow:hidden;
+    ul{
+      @include setting($picWidth,256px);
+      @include distance(0,5px);
+      li{
+        @include setting(82px,82px);
+        @include distance(13px,8px,2px);
+      }
+      .headPic1{background: url("../images/index/headPic.jpg") no-repeat left top;}
+      .headPic2{background: url("../images/index/headPic.jpg") no-repeat -100px top;}
+      .headPic3{background: url("../images/index/headPic.jpg") no-repeat -200px top;}
+      .headPic4{background: url("../images/index/headPic.jpg") no-repeat left -90px;}
+      .headPic5{background: url("../images/index/headPic.jpg") no-repeat -100px -90px;}
+      .headPic6{background: url("../images/index/headPic.jpg") no-repeat -200px -90px;}
+      .headPic7{background: url("../images/index/headPic.jpg") no-repeat left -180px;}
+      .headPic8{background: url("../images/index/headPic.jpg") no-repeat -100px -180px;}
+      .headPic9{background: url("../images/index/headPic.jpg") no-repeat -200px -180px;}
+    }
+    .idea{
+      @include distance(10px);
+      line-height:18px;
+    }
+    button{
+      @include setting(180px,34px,#5cb85c);
+      @include distance(60px,3px);
+      border:none;
+      color:#fff;
+    }
+  }
+  .groceries{
+    @include setting(950px,363px);
+    @include distance(10px);
+    float:left;
+    dl{
+      @include setting(220px,360px);
+      @include distance(15px);
+      float:left;
+      dt{
+        @include setting(220px,222px);
+      }
+      dd{
+        @include setting(220px,120px);
+      }
+    }
+  }
+  .title{
+    @include distance(15px,12px);
+    font-weight:600;
+  }
+  .world{
+    @include distance(15px,10px);
+    color:#666666;
+  }
+  .user{
+    @include setting(110px,40px);
+    @include distance(110px,25px);
+    span{
+      @include distance(0,10px,15px);
+      display: block;
+      float: left;
+      color:#666666;
+    }
+  }
+  .saleTime{
+    @include distance(0,5px,10px);
+    float:right;
+    color:#b4b8b8;
+  }
+}
+
+.product{
+  @include setting($width,340px,$bgColor);
+  @include distance(0,25px);
+  @include pos(relative);
+  .choiceness{
+    @include setting(950px,303px);
+    @include distance(10px);
+    dl{
+      @include setting(220px,300px);
+      @include distance(15px,1px);
+      float:left;
+      dt{
+        @include setting(220px,220px);
+      }
+      dd{
+        @include setting(220px,60px);
+        p{
+          @include distance(0,10px);
+        }
+      }
+    }
+  }
+  .brand{
+    @include setting(300px,300px);
+    @include distance(970px,-300px);
+    overflow:hidden;
+  }
+  .brandList{
+    @include setting(279px,246px);
+    @include distance(5px,15px);
+    li{
+      @include setting(93px,82px,url(../images/index/brand.jpg));
+    }
+    .brand1{ background-position:left top;}
+    .brand2{ background-position:-93px top;}
+    .brand3{ background-position:-186px top;}
+    .brand4{ background-position:left -82px;}
+    .brand5{ background-position:-93px -82px;}
+    .brand6{ background-position:-186px -82px;}
+    .brand7{ background-position:left -164px;}
+    .brand8{ background-position:-93px -164px;}
+    .brand9{ background-position:-186px -164px;}
+  }
+  .explain{
+    @include distance(0,3px);
+    font-size:14px;
+  }
+}
+
+.drink{
+  @include setting($width,315px,$bgColor);
+  @include distance(0,25px);
+  overflow:hidden;
+  h1{
+    @include setting(72px,20px,$bgColor);
+    @include distance(15px);
+    float:left;
+  }
+  .beverage{
+    @include setting(1020px,280px);
+    @include distance(15px,30px);
+    .turnPic{
+      @include setting(200px,280px);
+      @include pos(relative);
+      overflow:hidden;
+      float:left;
+      span{
+        @include setting(10px,10px,#000);
+        border:1px solid #fff;
+        border-radius:50%;
+        z-index:1;
+      }
+      .drinkTurn{
+        @include setting(800px,280px);
+        @include pos(absolute,0,0);
+      }
+    }
+    .turn1{
+        @include pos(absolute,140px,260px);
+    }
+    .turn2{
+      @include pos(absolute,160px,260px);
+    }
+    .turn3{
+      @include pos(absolute,180px,260px);
+    }
+    dl{
+      @include setting(201px,278px);
+      float:left;
+      dd{
+        p{
+          @include distance(5px,10px);
+        }
+      }
+    }
+  }
+  .drinkList{
+    @include setting(220px,282px);
+    @include distance(0px,-282px,10px);
+    float:right;
+    li{
+      @include setting(102px,93px,url(../images/index/drinkList.jpg) no-repeat);
+      @include distance(5px);
+      @include pos(relative);
+    }
+    .drink1{ background-position:left top;}
+    .drink2{ background-position:-102px top;}
+    .drink3{ background-position:left -93px;}
+    .drink4{ background-position:-102px -93px;}
+    .drink5{ background-position:left -186px;}
+    .drink6{ background-position:-102px -186px;}
+  }
+  .eatList{
+    @include setting(220px,282px);
+    @include distance(0,-282px,10px);
+    float:right;
+    li{
+      @include setting(102px,93px,url(../images/index/eatList.jpg) no-repeat);
+      @include pos(relative);
+      @include distance(5px);
+    }
+    .eat1{ background-position:left top;}
+    .eat2{ background-position:-102px top;}
+    .eat3{ background-position:left -93px;}
+    .eat4{ background-position:-102px -93px;}
+    .eat5{ background-position:left -186px;}
+    .eat6{ background-position:-102px -186px;}
+  }
+  .snackList{
+    @include setting(220px,282px);
+    @include distance(0,-282px,10px);
+    float:right;
+    li{
+      @include setting(102px,93px,url(../images/index/snackList.jpg) no-repeat);
+      @include distance(5px);
+      @include pos(relative);
+    }
+    .snack1{ background-position:left top;}
+    .snack2{ background-position:-102px top;}
+    .snack3{ background-position:left -93px;}
+    .snack4{ background-position:-102px -93px;}
+    .snack5{ background-position:left -186px;}
+    .snack6{ background-position:-102px -186px;}
+  }
+  .etd{
+    @include setting(102px,93px,#000);
+    @include pos(absolute,0,0);
+    color:#fff;
+    display:none;
+    opacity:0.8;
+    filter:alpha(opacity = 80);
+    p{
+      @include distance(0,20px);
+      display:block;
+      text-align:center;
+    }
+    button{
+      @include setting(80px,20px,#ff0000);
+      @include distance(10px,15px);
+      border:none;
+      border-radius:10px;
+      color:#fff;
+    }
+  }
+}
+
+.copy{
+  @include distance(0,20px);
+  text-align:center;
+}
+.new{
+  @include distance(0,7px);
+  text-align:center;
+  color:#333333;
+}
+
+//价格的common样式
+.price{
+  @include pos(absolute,-45px,0px);
+}
+.span{
+  color:$color;
+  font-size:42px;
+}
+.span1{
+  font-size:30px;
+}
+.fontP{
+  font-size:14px;
+}
+.lord{
+  @include distance(15px,0,0,10px);
+}
+.more{
+  @include pos(absolute,100px,5px);
+  color:$color;
+  font-size:14px;
+}
+.more1{
+  @include pos(absolute,140px,5px);
+}
+.explainNext{
+  @include distance(0,7px);
+  color:$color;
+}
+.subHead{
+  @include distance(0,5px);
+  float:left;
+}

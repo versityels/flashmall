@@ -1,0 +1,18 @@
+@mixin setting($width,$height,$background:#fff){
+  width:$width;
+  height:$height;
+  background: $background;
+}
+
+@mixin distance($left:0,$top:0,$right:0,$bottom:0){
+  margin-left:$left;
+  margin-top:$top;
+  margin-right:$right ;
+  margin-bottom:$bottom;
+}
+
+@mixin pos($pos,$left:0,$top:0){
+  position: $pos;
+  left:$left;
+  top:$top;
+}

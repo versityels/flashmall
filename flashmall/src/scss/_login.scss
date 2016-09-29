@@ -1,0 +1,74 @@
+
+.login{
+  @include setting($width,365px);
+  @include pos(relative);
+  overflow:hidden;
+  .purchase{
+    @include setting(575px,345px);
+    @include distance(10px,10px);
+    float:left;
+    button{
+      @include setting(262px,59px,url(../images/login/btnBg.jpg) repeat);
+      @include pos(absolute,155px,227px);
+      color:#fff;
+      font-weight:600;
+      font-size:24px;
+      border:4px solid #fff;
+      border-radius:10px;
+    }
+  }
+  .phoneNum{
+    @include setting(370px,335px);
+    @include distance(160px,20px);
+    @include pos(relative);
+    float:left;
+    p{
+      @include distance(0,15px);
+    }
+    input{
+      @include setting(342px,32px,url(../images/login/inputBg.jpg) repeat);
+      border-radius:5px;
+    }
+    .remem{
+      @include pos(absolute,20px,168px);
+      display:inline-block;
+    }
+    .forget{
+      @include pos(absolute,92px,177px);
+    }
+    .remember{
+      @include setting(13px,13px);
+      @include distance(0,32px);
+    }
+    .loginBtn{
+      @include setting(340px,32px,#5cb85c);
+      @include pos(absolute,5px,220px);
+      border-radius:5px;
+      color: #fff;
+    }
+    .signBtn{
+      @include setting(340px,32px);
+      @include pos(absolute,5px,260px);
+      border:1px solid #ccc;
+      border-radius:5px;
+      color: #000;
+    }
+    ul{
+      @include pos(absolute,75px,302px);
+      li{
+        @include setting(20px,20px,url(../images/login/thirdParty.jpg) no-repeat);
+        @include distance(5px);
+        cursor : pointer;
+      }
+      .login1{ background-position: left top;}
+      .login2{ background-position: -22px top;}
+      .login3{ background-position: -68px 2px;}
+      .login4{ background-position: -94px top;}
+      .login5{ background-position: -115px top;}
+    }
+    .thirdParty{
+      @include pos(absolute,5px,290px);
+      display:inline-block;
+    }
+  }
+}
