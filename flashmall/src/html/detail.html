@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>首页</title>
+    <title>Title</title>
     <link type="text/css" rel="stylesheet" href="../css/main.css"/>
 </head>
 <body>
@@ -57,58 +57,89 @@
             <li><a href="#">学习/生活用品</a></li>
             <li><a href="#">香烟代购</a></li>
         </ul>
-
     </div>
 
-    <div class="totalPrice">
-        <p>总价钱 : &yen; <span class="span span1">0.00</span></p>
-        <p>领主价(98折) : &yen; <span class="span span1">0.00</span></p>
-        <p>应付总价 : &yen; <span class="span span1">0.00</span></p>
-        <button>提交订单</button>
-        <div class="score">您获得积分 :　<span>3</span></div>
-        <div class="score1">赠送推荐者积分 :　<span>1</span></div>
-        <h1>商品清单</h1>
-    </div>
-
-    <div class="commodity">
-        <div class="all">
-            <input type="checkbox"/>
-            <p>全选</p>
-            <p class="pAll">名称</p>
-            <p class="pAll">单价</p>
-            <p class="number">数量</p>
-            <p class="number">合计</p>
-            <p class="number">操作</p>
+    <div class="particular">
+        <div class="large">
+            <img src="../images/detail/product.jpg"/>
         </div>
-        <div class="goods"></div>
-        <div class="foot"></div>
-        <div class="flow">
-            <p>购物流程让你不爽? 来 <span class="explainNext">吐槽吧</span></p>
+        <div class="pLeft">
+            <img src="../images/detail/product.jpg" id="p001"/>
+            <div class="little"></div>
+        </div>
+        <div class="pRight">
+            <h1>王子曲奇星</h1>
+            <p class="promise">品质保证 送货上门 在线或货到付款 安心便捷</p>
+            <p class="describe">描述</p>
+            <div class="inventory">
+                <div class="cost">
+                    <p class="flashCost">闪猫价 : &yen; <span class="span span1">3.8</span></p>
+                    <p class="repertory">库存 : 18</p>
+                </div>
+                <div class="give">
+                    <p class="integral">送积分</p>
+                    <p class="self" style="margin-left:65px;"><span class="num">1</span>积分</p>
+                    <p class="self" style="margin-left:100px;"><span class="num">3</span>自己</p>
+                </div>
+            </div>
+            <div class="buy">
+                <div class="amount">
+                    <div class="count">1</div>
+                    <button class="addCount"></button>
+                    <button class="minusCount"></button>
+                </div>
+                <button class="buyBtn">加入购物车</button>
+                <button class="buyBtn">购买</button>
+                <div class="circle">
+                    <img src="../images/detail/@.jpg"/>
+                    <p>@ 新人成功购买商品 , 您可获赠一份</p>
+                    <p>@ 好友成功购买商品 , 您可获得积分</p>
+                    <ul>
+                        <li></li>
+                        <li class="buy2"></li>
+                        <li class="buy3"></li>
+                        <li class="buy4"></li>
+                        <li class="buy5"></li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="fast">
+                <li>最快15分钟到达</li>
+                <li>送货到门</li>
+                <li>正品保证</li>
+                <li>售后无忧</li>
+                <li>不支持7天无理由退货</li>
+                <li style="border-right:none;">图片仅供参考,以实物为准</li>
+            </ul>
+        </div>
+        <div class="message">
+            <ul class="option">
+                <li>参数</li>
+                <li>详情</li>
+                <li>口碑</li>
+            </ul>
+            <div class="mes">
+                <div class="parameter">
+                    <p class="promise">参数</p>
+                    <ul>
+                        <li>品   牌  : 王子</li>
+                        <li>产品条码 : 69250274392</li>
+                        <li>产品规格 : 85克</li>
+                        <li>原产地   : 上海市徐汇区</li>
+                        <li>保质期限 : 12个月</li>
+                    </ul>
+                </div>
+                <div class="detail">
+                    111111111111111111111111111111111111111111111
+                </div>
+                <div class="praise">
+                    2222222222222222222222222222222222222222222222
+                </div>
+            </div>
         </div>
     </div>
 
-    <h1>我的礼物</h1>
 
-    <div class="present">
-        <button>选择礼物</button>
-        <img src="../images/cart/present.jpg"/>
-        <p>统一 植觉 记事本</p>
-    </div>
-    <div class="present">
-        <button>选择礼物</button>
-        <img src="../images/cart/present2.jpg"/>
-        <p>统一 植觉 记事本</p>
-    </div>
-    <div class="present">
-        <button>选择礼物</button>
-        <img src="../images/cart/present3.jpg"/>
-        <p>统一 植觉 记事本</p>
-    </div>
-    <div class="present">
-        <button>选择礼物</button>
-        <img src="../images/cart/present4.jpg"/>
-        <p>统一 植觉 记事本</p>
-    </div>
     <div class="bottom">
         <div class="up">
             <dl>
@@ -171,5 +202,5 @@
 <script src="../js/jquery-1.8.3.js"></script>
 <script src="../js/cookie.js"></script>
 <script src="../js/indexDetailCommon.js"></script>
-<script src="../js/cart.js"></script>
+<script src="../js/detail.js"></script>
 </html>

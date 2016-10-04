@@ -15,17 +15,17 @@
         </div>
         <div class="sign">
             <div class="cut">
-                <button class="phoneSign">手机号注册</button>
-                <button class="mailSign">邮箱注册</button>
+                <button class="phoneSign show">手机号注册</button>
+                <button class="mailSign hide">邮箱注册</button>
             </div>
             <div class="under">
                 <p class="phone">手机号</p>
-                <input placeholder="手机号" class="tel"/>
+                <input placeholder="手机号" class="tel" id="phone"/><span></span>
                 <p class="phone">验证码</p>
-                <input placeholder="验证码" class="verify"/>
+                <input placeholder="验证码" class="verify" id="vry"/><span></span>
                 <div class="verifyNum">点击获取验证码</div><br/><br/><br/>
                 <p class="phone clearfix">密码</p>
-                <input placeholder="密码" class="tel"/>
+                <input type="password" placeholder="密码(6-18位可用数字、字母、-组合)" class="tel" id="pwd"/><span></span>
                 <p class="hint">温馨提示:177号暂时无法注册 ,请使用<a>邮箱注册</a></p>
                 <input type="checkbox" class="yet"/>
                 <span class="read">我已阅读并接受<a>《闪猫用户协议》</a></span><br/><br/>
@@ -35,12 +35,12 @@
 
             <div class="under1">
                 <p class="phone">邮箱</p>
-                <input placeholder="邮箱" class="tel"/>
+                <input placeholder="邮箱" class="tel" id="mail"/><span></span>
                 <p class="phone">验证码</p>
-                <input placeholder="验证码" class="verify"/>
+                <input placeholder="验证码" class="verify" id="vry1"/><span></span>
                 <div class="verifyNum">点击获取验证码</div><br/><br/><br/>
                 <p class="phone clearfix">密码</p>
-                <input placeholder="密码" class="tel"/><br/>
+                <input type="password" placeholder="密码(6-18位可用数字、字母、-组合)" class="tel" id="pwd1"/><span></span><br/>
                 <input type="checkbox" class="yet"/>
                 <span class="read">我已阅读并接受<a>《闪猫用户协议》</a></span><br/><br/>
                 <button class="btnSign">注册</button>
@@ -108,4 +108,7 @@
     </div>
 </div>
 </body>
+<script src="../js/jquery-1.8.3.js"></script>
+<script src="../js/cookie.js"></script>
+<script src="../js/sign.js"></script>
 </html>

@@ -1,0 +1,135 @@
+.totalPrice{
+  @include setting($width,175px,$bgColor);
+  @include pos(relative);
+  p{
+    @include setting(200px,40px,$bgColor);
+    @include distance(120px,50px);
+    float:left;
+    font-size:14px;
+  }
+  button{
+    @include setting(98px,32px,#5cb85c);
+    @include distance(60px,50px);
+    float:left;
+    color:#fff;
+  }
+  .score{
+    @include pos(absolute,480px,120px);
+  }
+  .score1{
+    @include pos(absolute,630px,120px);
+  }
+  h1{
+    @include pos(absolute,0,145px);
+  }
+}
+
+.commodity{
+  @include setting($width,auto);
+  .all{
+    @include setting($width,34px);
+    input{
+      @include distance(10px,10px);
+      float:left;
+    }
+    p{
+      @include distance(8px);
+      line-height:34px;
+      float:left;
+    }
+    .pAll{
+      @include distance(325px);
+    }
+    .number{
+      @include distance(125px);
+    }
+  }
+  .foot{
+    @include setting($width,20px);
+    border-bottom:1px solid #ccc;
+  }
+  .flow{
+    @include setting($width,60px);
+    p{
+      text-align:center;
+      line-height:60px;
+    }
+  }
+}
+
+.present{
+  @include setting(300px,330px);
+  @include distance(5px,10px);
+  @include pos(relative);
+  float:left;
+  button{
+    @include setting(70px,32px,#5cb85c);
+    @include distance(115px,10px);
+    color:#fff;
+  }
+  img{
+    @include distance(75px,10px);
+  }
+  p{
+    @include pos(absolute,100px,260px);
+    text-align:center;
+  }
+}
+
+.pro1{
+  @include setting($width,80px,#f4fede);
+  @include distance(0,10px);
+  @include pos(relative);
+  overflow:hidden;
+  img{
+    @include setting(48px,48px);
+    @include distance(50px,10px);
+    border:1px solid #ccc;
+    float:left;
+  }
+  .p{
+    @include distance(205px);
+    float:left;
+    line-height:65px;
+    font-size:14px;
+  }
+  .unitPrice1{
+    @include pos(absolute,510px);
+  }
+  button{
+    @include setting(20px,27px);
+    border:1px solid #ccc;
+  }
+}
+.inp{
+  @include distance(40px,25px);
+  display:block;
+  float:left;
+}
+.lessBtn{
+  @include pos(absolute,845px,22px);
+}
+.proNum{
+  @include setting(30px,25px);
+  @include pos(absolute,865px,22px);
+  border:1px solid #ccc;
+  float:left;
+  text-align:center;
+  line-height:25px;
+  font-size:14px;
+}
+.moreBtn{
+  @include pos(absolute,897px,22px);
+}
+.allPrice{
+  @include pos(absolute,1010px,25px);
+  font-size:14px;
+  color:$color;
+  float:left;
+}
+.del{
+  @include pos(absolute,1150px,22px);
+  font-size:14px;
+  color:$color;
+  float:left;
+}

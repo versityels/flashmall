@@ -1,0 +1,182 @@
+.particular{
+  @include setting($width,630px,$bgColor);
+  @include distance(0,10px);
+  @include pos(relative);
+}
+
+.large{
+  @include setting(400px,400px);
+  @include pos(absolute,415px);
+  overflow: hidden;
+  display : none;
+  img{
+    @include setting(1600px,1600px);
+    @include pos(absolute,0,0);
+  }
+}
+.pLeft{
+  @include setting(400px,400px,#f9fafe);
+  @include pos(relative);
+  float:left;
+}
+
+.pRight{
+  @include setting(805px,410px);
+  @include distance(15px);
+  float:left;
+  h1{
+    @include distance(15px,17px);
+    font-size:28px;
+  }
+  .describe{
+    @include distance(15px,15px);
+  }
+  .inventory{
+    @include setting(805px,90px);
+    @include distance(0,60px);
+    .cost{
+      @include setting(537px,90px,#ffcccc);
+      font-size:12px;
+      float:left;
+    }
+    .give{
+      @include setting(268px,90px,#6699cc);
+      float:left;
+    }
+  }
+}
+.promise{
+  @include distance(15px,15px);
+  color:$color;
+}
+
+.flashCost{
+  @include setting(125px,12px,#ffcccc);
+  @include distance(50px,30px);
+  float:left;
+}
+.repertory{
+  @include distance(160px,45px);
+  color:$color;
+  float:left;
+}
+.integral{
+  @include distance(0,10px);
+  text-align:center;
+}
+.self{
+  @include setting(30px,40px,#6699cc);
+  float:left;
+  .num{
+    font-size:38px;
+    color:#fff;
+  }
+}
+
+.buy{
+  @include setting(805px,110px);
+  border-bottom:1px solid #ccc;
+  .amount{
+    @include setting(66px,38px);
+    @include distance(15px,30px);
+    float:left;
+    border:1px solid #ccc;
+    .count{
+      @include setting(48px,38px);
+      border-right:1px solid #ccc;
+      color:#ccd9e7;
+      font-size:24px;
+      text-align:center;
+      line-height:38px;
+      float:left;
+    }
+    .addCount{
+      @include setting(17px,19px,url(../images/detail/add.jpg) no-repeat center center);
+      border:1px solid #ccc;
+      float:left;
+    }
+    .minusCount{
+      @include setting(17px,19px,url(../images/detail/minus.jpg) no-repeat center center);
+      border:1px solid #ccc;
+      float:left;
+    }
+  }
+  .buyBtn{
+    @include setting(150px,40px,#d9534f);
+    @include distance(15px,30px);
+    float:left;
+    color:#fff;
+  }
+  .circle{
+    @include setting(275px,85px);
+    @include distance(107px,25px);
+    float:left;
+    img{
+      float:left;
+    }
+    p{
+      @include distance(3px,5px);
+      float:left;
+    }
+    ul{
+      @include setting(200px,25px);
+      @include distance(50px,50px);
+      li{
+        @include setting(24px,24px,url(../images/detail/third.jpg) no-repeat);
+        @include distance(7px);
+      }
+      .buy2{background-position:-31px}
+      .buy3{background-position:-62px}
+      .buy4{background-position:-93px}
+      .buy5{background-position:-124px}
+    }
+  }
+}
+
+.fast{
+  @include setting(805px,40px);
+  li{
+    @include distance(0,15px);
+    padding:0 15px;
+    color:#666666;
+    border-right:1px solid #666666;
+  }
+}
+
+.message{
+  @include setting(805px,210px);
+  @include distance(415px,10px);
+  float:left;
+  .option{
+    @include setting(805px,38px,#bbd9ca);
+    li{
+      @include setting(148px,38px,#bbd9ca);
+      text-align:center;
+      line-height:38px;
+    }
+  }
+  .mes{
+    @include setting(805px,172px);
+    ul{
+      @include distance(10px,15px);
+      li{
+        color:#666666;
+        float:none;
+        line-height:20px;
+      }
+    }
+  }
+}
+.detail{
+  display : none;
+}
+.praise{
+  display : none;
+}
+.little{
+  @include setting(100px,100px,#000);
+  @include pos(absolute,300px,300px);
+  opacity:0.5;
+  filter : alpha(opacity = 50);
+  display:none;
+}

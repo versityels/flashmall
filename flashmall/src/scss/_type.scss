@@ -25,3 +25,101 @@ button{
 img{
   border:none;
 }
+
+#vessel{
+  @include setting($width,auto,$bgColor);
+}
+
+.roof{
+  @include setting($width,165px,$bgColor);
+  img{
+    @include distance(525px,27px);
+  }
+}
+input::-ms-input-placeholder{text-align: center;};
+input::-webkit-input-placeholder{text-align: center;};
+
+
+#container{
+  @include setting($width,auto,$bgColor);
+}
+
+
+//顶部 搜索 登录 注册按钮
+.top{
+  @include setting($width,90px,#fff url(../images/index/logo.jpg) no-repeat);
+  @include pos(relative);
+  .search{
+    @include setting(334px,32px,url(../images/index/search-bg.jpg) repeat-x);
+    @include pos(absolute,420px,25px);
+    border:1px solid #ccc;
+  }
+  .searchBtn{
+    @include setting(33px,32px,#f95c76 url(../images/index/search-btn.jpg) no-repeat);
+    @include pos(absolute,722px,26px);
+    border:1px solid #48d8fb;
+  }
+  .keyWord{
+    @include setting(300px,20px,#fff);
+    @include pos(absolute,420px,60px);
+  }
+  img{
+    @include distance(900px,10px);
+  }
+  h3{
+    @include setting(200px,20px,#fff);
+    @include distance(980px,-70px);
+    font-size:14px;
+    color:$color;
+  }
+  a{
+    @include setting(40px,20px,#fff);
+    color:$color;
+    text-align:center;
+    display:inline-block;
+  }
+  .aLog{
+    @include distance(980px,15px);
+  }
+}
+
+//菜单
+.menu{
+  @include setting($width,45px,$color);
+  @include pos(relative);
+  ul{
+    @include distance(55px,0px);
+    li a{
+      display:block;
+      color : #fff;
+      font-size : 16px;
+      font-weight : 600;
+      padding : 0 25px;
+      line-height:45px;
+    }
+  };
+  .snackUl{
+    @include setting(115px,135px,$color);
+    z-index:1;
+    clear:both;
+    display:none;
+    li{
+      cursor: pointer;
+      color : #fff;
+      font-size : 14px;
+      padding : 0 25px;
+      line-height:45px;
+      clear:both;
+    }
+  }
+  .snackUl1{
+    @include pos(absolute,82px,45px);
+  }
+  .snackUl2{
+    @include setting(115px,180px,$color);
+    @include pos(absolute,428px,45px);
+  }
+  .snackUl3{
+    @include pos(absolute,543px,45px);
+  }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css" rel="stylesheet" href="../css/jquery-ui.css"/>
+</head>
+<body>
+<input id="autocomplete" class="search" title="type &quot;a&quot;" placeholder="输入商品名称" />
+</body>
+<script src="../js/jquery-1.8.3.js"></script>
+<script src="../js/indexDetailCommon.js"></script>
+<script src="../js/jquery-ui.js"></script>
+<script src="../js/homepage.js"></script>
+<script>
+    var availableTags = [
+        "ActionScript",
+        "AppleScript",
+        "Asp",
+        "BASIC",
+        "C",
+        "C++",
+        "Clojure",
+        "COBOL",
+        "ColdFusion",
+        "Erlang",
+        "Fortran",
+        "Groovy",
+        "Haskell",
+        "Java",
+        "JavaScript",
+        "Lisp",
+        "Perl",
+        "PHP",
+        "Python",
+        "Ruby",
+        "Scala",
+        "Scheme"
+    ];
+    $( "#autocomplete" ).autocomplete({
+        source: availableTags
+    });
+</script>
+</html>

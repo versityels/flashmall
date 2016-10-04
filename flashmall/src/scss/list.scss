@@ -1,0 +1,211 @@
+.upLeft{
+  @include setting(300px,540px);
+  @include distance(0,10px);
+  @include pos(relative);
+  float:left;
+  h2{
+    @include distance(90px,20px);
+  }
+  img{
+    @include distance(80px,80px);
+  }
+  p{
+    @include distance(0,60px);
+    text-indent:2em;
+    line-height:20px;
+  }
+}
+.hot{
+  @include setting(605px,200px);
+  @include distance(10px,10px);
+  float:left;
+  h2{
+    @include distance(15px,10px);
+  }
+  dl{
+    @include distance(20px,20px);
+    float:left;
+    dt{
+      @include distance(0,10px);
+      float:left;
+    }
+    dd{
+      float:left;
+      color:#666666;
+      p{
+        text-align:center;
+      }
+      .pPrice{
+        @include distance(0,20px);
+      }
+    }
+  }
+  .add{
+    @include setting(168px,38px,#ff6666);
+    li{
+      @include setting(56px,38px,url(../images/list/add.jpg) no-repeat);
+      &:hover{
+        cursor: pointer;
+      }
+    }
+    .a2{background-position:-56px}
+    .a3{background-position:-112px}
+  }
+}
+.activity{
+  @include setting(200px,200px);
+  @include distance(10px,10px);
+  float:left;
+  h2{
+    @include distance(15px,10px);
+  }
+  ul{
+    @include setting(160px,160px);
+    @include distance(30px,10px);
+    li{
+      list-style:disc;
+    }
+  }
+}
+.trade{
+  @include setting(815px,145px);
+  @include distance(10px,10px);
+  float:left;
+  .tradeLeft{
+    @include setting(135px,145px);
+    float:left;
+    .tradeUp{
+      @include setting(135px,110px,#eeeeee url(../images/list/trade.jpg) no-repeat center center);
+      overflow:hidden;
+      h2{
+        @include distance(52px,75px);
+      }
+    }
+    .tradeDown{
+      @include setting(135px,35px,#f9e9e9);
+    }
+  }
+  .tradeRight{
+    @include setting(680px,145px);
+    float:left;
+    .rightUp{
+      @include setting(680px,110px);
+      overflow:hidden;
+      .tradeList{
+        @include setting(560px,80px);
+        @include distance(20px,15px);
+        li{
+          @include setting(110px,12px);
+          @include distance(0,10px);
+        }
+      }
+    }
+    .rightDown{
+      @include setting(680px,35px,#f9e9e9);
+      li{
+        @include setting(57px,35px,#f9e9e9);
+        text-align:center;
+        line-height:35px;
+      }
+    }
+  }
+}
+.evenMore{
+  @include setting(815px,1500px,#f0f3f8);
+  float:left;
+  .img{
+    @include distance(305px,10px);
+  }
+}
+.list{
+  @include setting(815px,auto);
+  @include distance(10px,10px);
+  float:left;
+  dl{
+    @include setting(198px,280px);
+    @include distance(2px,2px);
+    float:left;
+    dd{
+      @include distance(5px);
+    }
+  }
+}
+
+.recommend{
+  @include pos(absolute,100px,750px);
+}
+
+.person1{
+  @include pos(absolute,0,830px);
+}
+.person2{
+  @include pos(absolute,0,1210px);
+}
+.person3{
+  @include pos(absolute,0,1590px);
+}
+.person{
+  @include setting(300px,360px);
+  overflow:scroll;
+  overflow-x:hidden;
+  img{
+    @include distance(115px,20px);
+  }
+  p{
+    @include distance(0,5px,0,20px);
+    text-align:center;
+  }
+  h2{
+    text-align:center;
+  }
+  dl{
+    @include setting(300px,150px);
+    @include distance(0,75px);
+    dt{
+      img{
+        @include distance(0,20px);
+      }
+      float:left;
+    }
+    dd{
+      @include setting(120px,50px);
+      @include distance(10px);
+      color:#666666;
+      line-height:20px;
+      float:left;
+    }
+  }
+}
+
+.return{
+  @include setting(70px,378px);
+  @include pos(absolute,1150px,170px);
+  li{
+    @include setting(70px,62px);
+    border-bottom:1px dashed #ccc;
+    text-align:center;
+    line-height:90px;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+  .r1{
+    background:$color url("../images/list/homepage.jpg") no-repeat center 10px;
+    color:#fff;
+  }
+  .r2{
+    background:url("../images/list/every.jpg") no-repeat center 10px;
+  }
+  .r3{
+    background:url("../images/list/world.jpg") no-repeat center 10px;
+  }
+  .r4{
+    background:url("../images/list/center.jpg") no-repeat center 10px;
+  }
+  .r5{
+    background:url("../images/list/dou.jpg") no-repeat center 10px;
+  }
+  .r6{
+    background:url("../images/list/return.jpg") no-repeat center 10px;
+  }
+}

@@ -65,449 +65,6 @@ input::-webkit-input-placeholder {
   text-align: center;
 }
 
-.WeChats {
-  width: 1270px;
-  height: 150px;
-  background: #fff;
-  margin-left: 0;
-  margin-top: 18px;
-  margin-right: 0;
-  margin-bottom: 0;
-}
-.WeChats .WeChat {
-  width: 317px;
-  height: 150px;
-  background: #fff;
-  float: left;
-}
-.WeChats .WeChat h2 {
-  margin-left: 25px;
-  margin-top: 15px;
-  margin-right: 0;
-  margin-bottom: 0;
-}
-.WeChats .WeChat dl {
-  margin-left: 30px;
-  margin-top: 28px;
-  margin-right: 0;
-  margin-bottom: 0;
-}
-.WeChats .WeChat dl dt {
-  float: left;
-}
-.WeChats .WeChat dl dd {
-  width: 170px;
-  height: 75px;
-  background: #fff;
-  margin-left: 10px;
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  line-height: 18px;
-  float: left;
-}
-.WeChats .WeChat .dl1 {
-  width: 280px;
-  height: 40px;
-  background: #fff;
-  margin-left: 10px;
-  margin-top: 20px;
-  margin-right: 0;
-  margin-bottom: 0;
-}
-.WeChats .WeChat .dl1 dd {
-  width: 220px;
-  height: 40px;
-  background: #fff;
-}
-.WeChats .WeChat .dl2 {
-  width: 280px;
-  height: 40px;
-  background: #fff;
-  margin-left: 10px;
-  margin-top: 5px;
-  margin-right: 0;
-  margin-bottom: 0;
-}
-.WeChats .WeChat .dl2 dd {
-  width: 220px;
-  height: 40px;
-  background: #fff;
-}
-
-.bottom {
-  width: 1270px;
-  height: 275px;
-  background: #f0f3f8;
-  overflow: hidden;
-}
-.bottom .up {
-  width: 1270px;
-  height: 140px;
-  background: #f0f3f8;
-}
-.bottom dl {
-  width: 211px;
-  height: 140px;
-  background: #f0f3f8;
-  float: left;
-}
-.bottom dl dt {
-  margin-left: 75px;
-  margin-top: 20px;
-  margin-right: 0;
-  margin-bottom: 0;
-}
-.bottom dl dd {
-  width: 211px;
-  height: 75px;
-  background: #f0f3f8;
-}
-.bottom dl dd h3 {
-  margin-left: 0;
-  margin-top: 10px;
-  margin-right: 0;
-  margin-bottom: 0;
-  text-align: center;
-}
-.bottom dl dd p {
-  line-height: 20px;
-  text-align: center;
-}
-.bottom .lastUl {
-  width: 400px;
-  height: 25px;
-  background: #f0f3f8;
-  margin-left: 470px;
-  margin-top: 20px;
-  margin-right: 0;
-  margin-bottom: 0;
-}
-.bottom .lastUl li {
-  color: #5a5a5a;
-  padding: 0 15px;
-  cursor: pointer;
-  border-right: 1px solid #5a5a5a;
-}
-.bottom .lastUl .lastLi {
-  border-right: none;
-}
-.bottom .lastP {
-  line-height: 18px;
-  text-align: center;
-  color: #333333;
-}
-.bottom .lastP span {
-  font-size: 18px;
-}
-.bottom .Commerce {
-  width: 50px;
-  height: 50px;
-  background: #f0f3f8;
-  margin-left: 600px;
-  margin-top: 5px;
-  margin-right: 0;
-  margin-bottom: 0;
-}
-.bottom .Commerce img {
-  margin-left: 5px;
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-}
-
-.login {
-  width: 1270px;
-  height: 365px;
-  background: #fff;
-  position: relative;
-  left: 0;
-  top: 0;
-  overflow: hidden;
-}
-.login .purchase {
-  width: 575px;
-  height: 345px;
-  background: #fff;
-  margin-left: 10px;
-  margin-top: 10px;
-  margin-right: 0;
-  margin-bottom: 0;
-  float: left;
-}
-.login .purchase button {
-  width: 262px;
-  height: 59px;
-  background: url(../images/login/btnBg.jpg) repeat;
-  position: absolute;
-  left: 155px;
-  top: 227px;
-  color: #fff;
-  font-weight: 600;
-  font-size: 24px;
-  border: 4px solid #fff;
-  border-radius: 10px;
-}
-.login .phoneNum {
-  width: 370px;
-  height: 335px;
-  background: #fff;
-  margin-left: 160px;
-  margin-top: 20px;
-  margin-right: 0;
-  margin-bottom: 0;
-  position: relative;
-  left: 0;
-  top: 0;
-  float: left;
-}
-.login .phoneNum p {
-  margin-left: 0;
-  margin-top: 15px;
-  margin-right: 0;
-  margin-bottom: 0;
-}
-.login .phoneNum input {
-  width: 342px;
-  height: 32px;
-  background: url(../images/login/inputBg.jpg) repeat;
-  border-radius: 5px;
-}
-.login .phoneNum .remem {
-  position: absolute;
-  left: 20px;
-  top: 168px;
-  display: inline-block;
-}
-.login .phoneNum .forget {
-  position: absolute;
-  left: 92px;
-  top: 177px;
-}
-.login .phoneNum .remember {
-  width: 13px;
-  height: 13px;
-  background: #fff;
-  margin-left: 0;
-  margin-top: 32px;
-  margin-right: 0;
-  margin-bottom: 0;
-}
-.login .phoneNum .loginBtn {
-  width: 340px;
-  height: 32px;
-  background: #5cb85c;
-  position: absolute;
-  left: 5px;
-  top: 220px;
-  border-radius: 5px;
-  color: #fff;
-}
-.login .phoneNum .signBtn {
-  width: 340px;
-  height: 32px;
-  background: #fff;
-  position: absolute;
-  left: 5px;
-  top: 260px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  color: #000;
-}
-.login .phoneNum ul {
-  position: absolute;
-  left: 75px;
-  top: 302px;
-}
-.login .phoneNum ul li {
-  width: 20px;
-  height: 20px;
-  background: url(../images/login/thirdParty.jpg) no-repeat;
-  margin-left: 5px;
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  cursor: pointer;
-}
-.login .phoneNum ul .login1 {
-  background-position: left top;
-}
-.login .phoneNum ul .login2 {
-  background-position: -22px top;
-}
-.login .phoneNum ul .login3 {
-  background-position: -68px 2px;
-}
-.login .phoneNum ul .login4 {
-  background-position: -94px top;
-}
-.login .phoneNum ul .login5 {
-  background-position: -115px top;
-}
-.login .phoneNum .thirdParty {
-  position: absolute;
-  left: 5px;
-  top: 290px;
-  display: inline-block;
-}
-
-.sign {
-  width: 550px;
-  height: 360px;
-  background: #fff;
-  margin-left: 135px;
-  margin-top: 2px;
-  margin-right: 0;
-  margin-bottom: 0;
-  float: left;
-}
-
-.cut {
-  width: 528px;
-  height: 40px;
-  background: #fff;
-  border-bottom: 1px solid #dddddd;
-}
-
-.under {
-  width: 528px;
-  height: 320px;
-  background: #fff;
-  display: block;
-}
-
-.under1 {
-  width: 528px;
-  height: 320px;
-  background: #fff;
-  display: none;
-}
-
-.phoneSign {
-  width: 88px;
-  height: 41px;
-  background: #fff;
-  margin-left: 1px;
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  float: left;
-  border-radius: 8px 8px 0 0;
-  border: 1px solid #dddddd;
-  border-bottom: 1px solid #fff;
-}
-
-.mailSign {
-  width: 88px;
-  height: 41px;
-  background: #fff;
-  margin-left: 1px;
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  float: left;
-  border-radius: 8px 8px 0 0;
-  border: none;
-  border-bottom: 1px solid #dddddd;
-}
-
-.phone {
-  margin-left: 50px;
-  margin-top: 5px;
-  margin-right: 0;
-  margin-bottom: 5px;
-}
-
-input {
-  margin-left: 50px;
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  border-radius: 5px;
-}
-
-.tel {
-  width: 342px;
-  height: 32px;
-  background: url(../images/login/inputBg.jpg) repeat;
-}
-
-.verify {
-  width: 170px;
-  height: 32px;
-  background: url(../images/login/inputBg.jpg) repeat;
-  float: left;
-}
-
-.verifyNum {
-  width: 120px;
-  height: 34px;
-  background: #5cb85c;
-  margin-left: 20px;
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  color: #fff;
-  text-align: center;
-  line-height: 34px;
-  border-radius: 5px;
-  float: left;
-}
-
-.hint {
-  margin-left: 55px;
-  margin-top: 10px;
-  margin-right: 0;
-  margin-bottom: 5;
-  color: #ff3333;
-}
-.hint a {
-  color: #333333;
-}
-
-.yet {
-  margin-left: 55px;
-  margin-top: 10px;
-  margin-right: 0;
-  margin-bottom: 0;
-  float: left;
-}
-
-.read {
-  margin-left: 5px;
-  margin-top: 10px;
-  margin-right: 0;
-  margin-bottom: 0;
-  float: left;
-}
-.read a {
-  color: #ff3333;
-}
-
-button {
-  margin-left: 50px;
-  margin-top: 15px;
-  margin-right: 0;
-  margin-bottom: 0;
-}
-
-.btnSign {
-  width: 340px;
-  height: 32px;
-  background: #5cb85c;
-  border-radius: 5px;
-  color: #fff;
-}
-
-.btnLogin {
-  width: 340px;
-  height: 32px;
-  background: #fff;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  color: #000;
-}
-
 #container {
   width: 1270px;
   height: auto;
@@ -635,6 +192,1461 @@ button {
   position: absolute;
   left: 543px;
   top: 45px;
+}
+
+.WeChats {
+  width: 1270px;
+  height: 150px;
+  background: #fff;
+  margin-left: 0;
+  margin-top: 18px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.WeChats .WeChat {
+  width: 317px;
+  height: 150px;
+  background: #fff;
+  float: left;
+}
+.WeChats .WeChat h2 {
+  margin-left: 25px;
+  margin-top: 15px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.WeChats .WeChat dl {
+  margin-left: 30px;
+  margin-top: 28px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.WeChats .WeChat dl dt {
+  float: left;
+}
+.WeChats .WeChat dl dd {
+  width: 170px;
+  height: 75px;
+  background: #fff;
+  margin-left: 10px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  line-height: 18px;
+  float: left;
+}
+.WeChats .WeChat .dl1 {
+  width: 280px;
+  height: 40px;
+  background: #fff;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.WeChats .WeChat .dl1 dd {
+  width: 220px;
+  height: 40px;
+  background: #fff;
+}
+.WeChats .WeChat .dl2 {
+  width: 280px;
+  height: 40px;
+  background: #fff;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.WeChats .WeChat .dl2 dd {
+  width: 220px;
+  height: 40px;
+  background: #fff;
+}
+
+.bottom {
+  width: 1270px;
+  height: 275px;
+  background: #f0f3f8;
+  overflow: hidden;
+}
+.bottom .up {
+  width: 1270px;
+  height: 140px;
+  background: #f0f3f8;
+}
+.bottom dl {
+  width: 211px;
+  height: 140px;
+  background: #f0f3f8;
+  float: left;
+}
+.bottom dl dt {
+  margin-left: 75px;
+  margin-top: 20px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.bottom dl dd {
+  width: 211px;
+  height: 75px;
+  background: #f0f3f8;
+}
+.bottom dl dd h3 {
+  margin-left: 0;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+.bottom dl dd p {
+  line-height: 20px;
+  text-align: center;
+}
+.bottom .lastUl {
+  width: 400px;
+  height: 25px;
+  background: #f0f3f8;
+  margin-left: 470px;
+  margin-top: 20px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.bottom .lastUl li {
+  color: #5a5a5a;
+  padding: 0 15px;
+  cursor: pointer;
+  border-right: 1px solid #5a5a5a;
+}
+.bottom .lastP {
+  line-height: 18px;
+  text-align: center;
+  color: #333333;
+}
+.bottom .lastP span {
+  font-size: 18px;
+}
+.bottom .Commerce {
+  width: 50px;
+  height: 50px;
+  background: #f0f3f8;
+  margin-left: 600px;
+  margin-top: 5px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.bottom .Commerce img {
+  margin-left: 5px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.lastLi {
+  border-right: none;
+}
+
+.upLeft {
+  width: 300px;
+  height: 540px;
+  background: #fff;
+  margin-left: 0;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 0;
+  position: relative;
+  left: 0;
+  top: 0;
+  float: left;
+}
+.upLeft h2 {
+  margin-left: 90px;
+  margin-top: 20px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.upLeft img {
+  margin-left: 80px;
+  margin-top: 80px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.upLeft p {
+  margin-left: 0;
+  margin-top: 60px;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-indent: 2em;
+  line-height: 20px;
+}
+
+.hot {
+  width: 605px;
+  height: 200px;
+  background: #fff;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 0;
+  float: left;
+}
+.hot h2 {
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.hot dl {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 0;
+  margin-bottom: 0;
+  float: left;
+}
+.hot dl dt {
+  margin-left: 0;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 0;
+  float: left;
+}
+.hot dl dd {
+  float: left;
+  color: #666666;
+}
+.hot dl dd p {
+  text-align: center;
+}
+.hot dl dd .pPrice {
+  margin-left: 0;
+  margin-top: 20px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.hot .add {
+  width: 168px;
+  height: 38px;
+  background: #ff6666;
+}
+.hot .add li {
+  width: 56px;
+  height: 38px;
+  background: url(../images/list/add.jpg) no-repeat;
+}
+.hot .add li:hover {
+  cursor: pointer;
+}
+.hot .add .a2 {
+  background-position: -56px;
+}
+.hot .add .a3 {
+  background-position: -112px;
+}
+
+.activity {
+  width: 200px;
+  height: 200px;
+  background: #fff;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 0;
+  float: left;
+}
+.activity h2 {
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.activity ul {
+  width: 160px;
+  height: 160px;
+  background: #fff;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.activity ul li {
+  list-style: disc;
+}
+
+.trade {
+  width: 815px;
+  height: 145px;
+  background: #fff;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 0;
+  float: left;
+}
+.trade .tradeLeft {
+  width: 135px;
+  height: 145px;
+  background: #fff;
+  float: left;
+}
+.trade .tradeLeft .tradeUp {
+  width: 135px;
+  height: 110px;
+  background: #eeeeee url(../images/list/trade.jpg) no-repeat center center;
+  overflow: hidden;
+}
+.trade .tradeLeft .tradeUp h2 {
+  margin-left: 52px;
+  margin-top: 75px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.trade .tradeLeft .tradeDown {
+  width: 135px;
+  height: 35px;
+  background: #f9e9e9;
+}
+.trade .tradeRight {
+  width: 680px;
+  height: 145px;
+  background: #fff;
+  float: left;
+}
+.trade .tradeRight .rightUp {
+  width: 680px;
+  height: 110px;
+  background: #fff;
+  overflow: hidden;
+}
+.trade .tradeRight .rightUp .tradeList {
+  width: 560px;
+  height: 80px;
+  background: #fff;
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.trade .tradeRight .rightUp .tradeList li {
+  width: 110px;
+  height: 12px;
+  background: #fff;
+  margin-left: 0;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.trade .tradeRight .rightDown {
+  width: 680px;
+  height: 35px;
+  background: #f9e9e9;
+}
+.trade .tradeRight .rightDown li {
+  width: 57px;
+  height: 35px;
+  background: #f9e9e9;
+  text-align: center;
+  line-height: 35px;
+}
+
+.evenMore {
+  width: 815px;
+  height: 1500px;
+  background: #f0f3f8;
+  float: left;
+}
+.evenMore .img {
+  margin-left: 305px;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.list {
+  width: 815px;
+  height: auto;
+  background: #fff;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 0;
+  float: left;
+}
+.list dl {
+  width: 198px;
+  height: 280px;
+  background: #fff;
+  margin-left: 2px;
+  margin-top: 2px;
+  margin-right: 0;
+  margin-bottom: 0;
+  float: left;
+}
+.list dl dd {
+  margin-left: 5px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.recommend {
+  position: absolute;
+  left: 100px;
+  top: 750px;
+}
+
+.person1 {
+  position: absolute;
+  left: 0;
+  top: 830px;
+}
+
+.person2 {
+  position: absolute;
+  left: 0;
+  top: 1210px;
+}
+
+.person3 {
+  position: absolute;
+  left: 0;
+  top: 1590px;
+}
+
+.person {
+  width: 300px;
+  height: 360px;
+  background: #fff;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.person img {
+  margin-left: 115px;
+  margin-top: 20px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.person p {
+  margin-left: 0;
+  margin-top: 5px;
+  margin-right: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.person h2 {
+  text-align: center;
+}
+.person dl {
+  width: 300px;
+  height: 150px;
+  background: #fff;
+  margin-left: 0;
+  margin-top: 75px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.person dl dt {
+  float: left;
+}
+.person dl dt img {
+  margin-left: 0;
+  margin-top: 20px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.person dl dd {
+  width: 120px;
+  height: 50px;
+  background: #fff;
+  margin-left: 10px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  color: #666666;
+  line-height: 20px;
+  float: left;
+}
+
+.return {
+  width: 70px;
+  height: 378px;
+  background: #fff;
+  position: absolute;
+  left: 1150px;
+  top: 170px;
+}
+.return li {
+  width: 70px;
+  height: 62px;
+  background: #fff;
+  border-bottom: 1px dashed #ccc;
+  text-align: center;
+  line-height: 90px;
+}
+.return li:hover {
+  cursor: pointer;
+}
+.return .r1 {
+  background: #ff3333 url("../images/list/homepage.jpg") no-repeat center 10px;
+  color: #fff;
+}
+.return .r2 {
+  background: url("../images/list/every.jpg") no-repeat center 10px;
+}
+.return .r3 {
+  background: url("../images/list/world.jpg") no-repeat center 10px;
+}
+.return .r4 {
+  background: url("../images/list/center.jpg") no-repeat center 10px;
+}
+.return .r5 {
+  background: url("../images/list/dou.jpg") no-repeat center 10px;
+}
+.return .r6 {
+  background: url("../images/list/return.jpg") no-repeat center 10px;
+}
+
+.totalPrice {
+  width: 1270px;
+  height: 175px;
+  background: #f0f3f8;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.totalPrice p {
+  width: 200px;
+  height: 40px;
+  background: #f0f3f8;
+  margin-left: 120px;
+  margin-top: 50px;
+  margin-right: 0;
+  margin-bottom: 0;
+  float: left;
+  font-size: 14px;
+}
+.totalPrice button {
+  width: 98px;
+  height: 32px;
+  background: #5cb85c;
+  margin-left: 60px;
+  margin-top: 50px;
+  margin-right: 0;
+  margin-bottom: 0;
+  float: left;
+  color: #fff;
+}
+.totalPrice .score {
+  position: absolute;
+  left: 480px;
+  top: 120px;
+}
+.totalPrice .score1 {
+  position: absolute;
+  left: 630px;
+  top: 120px;
+}
+.totalPrice h1 {
+  position: absolute;
+  left: 0;
+  top: 145px;
+}
+
+.commodity {
+  width: 1270px;
+  height: auto;
+  background: #fff;
+}
+.commodity .all {
+  width: 1270px;
+  height: 34px;
+  background: #fff;
+}
+.commodity .all input {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 0;
+  float: left;
+}
+.commodity .all p {
+  margin-left: 8px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  line-height: 34px;
+  float: left;
+}
+.commodity .all .pAll {
+  margin-left: 325px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.commodity .all .number {
+  margin-left: 125px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.commodity .foot {
+  width: 1270px;
+  height: 20px;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+.commodity .flow {
+  width: 1270px;
+  height: 60px;
+  background: #fff;
+}
+.commodity .flow p {
+  text-align: center;
+  line-height: 60px;
+}
+
+.present {
+  width: 300px;
+  height: 330px;
+  background: #fff;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 0;
+  position: relative;
+  left: 0;
+  top: 0;
+  float: left;
+}
+.present button {
+  width: 70px;
+  height: 32px;
+  background: #5cb85c;
+  margin-left: 115px;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 0;
+  color: #fff;
+}
+.present img {
+  margin-left: 75px;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.present p {
+  position: absolute;
+  left: 100px;
+  top: 260px;
+  text-align: center;
+}
+
+.pro1 {
+  width: 1270px;
+  height: 80px;
+  background: #f4fede;
+  margin-left: 0;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 0;
+  position: relative;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+.pro1 img {
+  width: 48px;
+  height: 48px;
+  background: #fff;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 0;
+  border: 1px solid #ccc;
+  float: left;
+}
+.pro1 .p {
+  margin-left: 205px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  float: left;
+  line-height: 65px;
+  font-size: 14px;
+}
+.pro1 .unitPrice1 {
+  position: absolute;
+  left: 510px;
+  top: 0;
+}
+.pro1 button {
+  width: 20px;
+  height: 27px;
+  background: #fff;
+  border: 1px solid #ccc;
+}
+
+.inp {
+  margin-left: 40px;
+  margin-top: 25px;
+  margin-right: 0;
+  margin-bottom: 0;
+  display: block;
+  float: left;
+}
+
+.lessBtn {
+  position: absolute;
+  left: 845px;
+  top: 22px;
+}
+
+.proNum {
+  width: 30px;
+  height: 25px;
+  background: #fff;
+  position: absolute;
+  left: 865px;
+  top: 22px;
+  border: 1px solid #ccc;
+  float: left;
+  text-align: center;
+  line-height: 25px;
+  font-size: 14px;
+}
+
+.moreBtn {
+  position: absolute;
+  left: 897px;
+  top: 22px;
+}
+
+.allPrice {
+  position: absolute;
+  left: 1010px;
+  top: 25px;
+  font-size: 14px;
+  color: #ff3333;
+  float: left;
+}
+
+.del {
+  position: absolute;
+  left: 1150px;
+  top: 22px;
+  font-size: 14px;
+  color: #ff3333;
+  float: left;
+}
+
+.particular {
+  width: 1270px;
+  height: 630px;
+  background: #f0f3f8;
+  margin-left: 0;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 0;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.large {
+  width: 400px;
+  height: 400px;
+  background: #fff;
+  position: absolute;
+  left: 415px;
+  top: 0;
+  overflow: hidden;
+  display: none;
+}
+.large img {
+  width: 1600px;
+  height: 1600px;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.pLeft {
+  width: 400px;
+  height: 400px;
+  background: #f9fafe;
+  position: relative;
+  left: 0;
+  top: 0;
+  float: left;
+}
+
+.pRight {
+  width: 805px;
+  height: 410px;
+  background: #fff;
+  margin-left: 15px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  float: left;
+}
+.pRight h1 {
+  margin-left: 15px;
+  margin-top: 17px;
+  margin-right: 0;
+  margin-bottom: 0;
+  font-size: 28px;
+}
+.pRight .describe {
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.pRight .inventory {
+  width: 805px;
+  height: 90px;
+  background: #fff;
+  margin-left: 0;
+  margin-top: 60px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.pRight .inventory .cost {
+  width: 537px;
+  height: 90px;
+  background: #ffcccc;
+  font-size: 12px;
+  float: left;
+}
+.pRight .inventory .give {
+  width: 268px;
+  height: 90px;
+  background: #6699cc;
+  float: left;
+}
+
+.promise {
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-right: 0;
+  margin-bottom: 0;
+  color: #ff3333;
+}
+
+.flashCost {
+  width: 125px;
+  height: 12px;
+  background: #ffcccc;
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-right: 0;
+  margin-bottom: 0;
+  float: left;
+}
+
+.repertory {
+  margin-left: 160px;
+  margin-top: 45px;
+  margin-right: 0;
+  margin-bottom: 0;
+  color: #ff3333;
+  float: left;
+}
+
+.integral {
+  margin-left: 0;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.self {
+  width: 30px;
+  height: 40px;
+  background: #6699cc;
+  float: left;
+}
+.self .num {
+  font-size: 38px;
+  color: #fff;
+}
+
+.buy {
+  width: 805px;
+  height: 110px;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+.buy .amount {
+  width: 66px;
+  height: 38px;
+  background: #fff;
+  margin-left: 15px;
+  margin-top: 30px;
+  margin-right: 0;
+  margin-bottom: 0;
+  float: left;
+  border: 1px solid #ccc;
+}
+.buy .amount .count {
+  width: 48px;
+  height: 38px;
+  background: #fff;
+  border-right: 1px solid #ccc;
+  color: #ccd9e7;
+  font-size: 24px;
+  text-align: center;
+  line-height: 38px;
+  float: left;
+}
+.buy .amount .addCount {
+  width: 17px;
+  height: 19px;
+  background: url(../images/detail/add.jpg) no-repeat center center;
+  border: 1px solid #ccc;
+  float: left;
+}
+.buy .amount .minusCount {
+  width: 17px;
+  height: 19px;
+  background: url(../images/detail/minus.jpg) no-repeat center center;
+  border: 1px solid #ccc;
+  float: left;
+}
+.buy .buyBtn {
+  width: 150px;
+  height: 40px;
+  background: #d9534f;
+  margin-left: 15px;
+  margin-top: 30px;
+  margin-right: 0;
+  margin-bottom: 0;
+  float: left;
+  color: #fff;
+}
+.buy .circle {
+  width: 275px;
+  height: 85px;
+  background: #fff;
+  margin-left: 107px;
+  margin-top: 25px;
+  margin-right: 0;
+  margin-bottom: 0;
+  float: left;
+}
+.buy .circle img {
+  float: left;
+}
+.buy .circle p {
+  margin-left: 3px;
+  margin-top: 5px;
+  margin-right: 0;
+  margin-bottom: 0;
+  float: left;
+}
+.buy .circle ul {
+  width: 200px;
+  height: 25px;
+  background: #fff;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.buy .circle ul li {
+  width: 24px;
+  height: 24px;
+  background: url(../images/detail/third.jpg) no-repeat;
+  margin-left: 7px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.buy .circle ul .buy2 {
+  background-position: -31px;
+}
+.buy .circle ul .buy3 {
+  background-position: -62px;
+}
+.buy .circle ul .buy4 {
+  background-position: -93px;
+}
+.buy .circle ul .buy5 {
+  background-position: -124px;
+}
+
+.fast {
+  width: 805px;
+  height: 40px;
+  background: #fff;
+}
+.fast li {
+  margin-left: 0;
+  margin-top: 15px;
+  margin-right: 0;
+  margin-bottom: 0;
+  padding: 0 15px;
+  color: #666666;
+  border-right: 1px solid #666666;
+}
+
+.message {
+  width: 805px;
+  height: 210px;
+  background: #fff;
+  margin-left: 415px;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 0;
+  float: left;
+}
+.message .option {
+  width: 805px;
+  height: 38px;
+  background: #bbd9ca;
+}
+.message .option li {
+  width: 148px;
+  height: 38px;
+  background: #bbd9ca;
+  text-align: center;
+  line-height: 38px;
+}
+.message .mes {
+  width: 805px;
+  height: 172px;
+  background: #fff;
+}
+.message .mes ul {
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.message .mes ul li {
+  color: #666666;
+  float: none;
+  line-height: 20px;
+}
+
+.detail {
+  display: none;
+}
+
+.praise {
+  display: none;
+}
+
+.little {
+  width: 100px;
+  height: 100px;
+  background: #000;
+  position: absolute;
+  left: 300px;
+  top: 300px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  display: none;
+}
+
+.login {
+  width: 1270px;
+  height: 365px;
+  background: #fff;
+  position: relative;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+.login .purchase {
+  width: 575px;
+  height: 345px;
+  background: #fff;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 0;
+  float: left;
+}
+.login .purchase button {
+  width: 262px;
+  height: 59px;
+  background: url(../images/login/btnBg.jpg) repeat;
+  position: absolute;
+  left: 155px;
+  top: 227px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 24px;
+  border: 4px solid #fff;
+  border-radius: 10px;
+}
+.login .phoneNum {
+  width: 370px;
+  height: 335px;
+  background: #fff;
+  margin-left: 160px;
+  margin-top: 25px;
+  margin-right: 0;
+  margin-bottom: 0;
+  position: relative;
+  left: 0;
+  top: 0;
+  float: left;
+}
+.login .phoneNum p {
+  margin-left: 0;
+  margin-top: 15px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.login .phoneNum input {
+  width: 342px;
+  height: 32px;
+  background: url(../images/login/inputBg.jpg) repeat;
+  border-radius: 5px;
+}
+.login .phoneNum .remem {
+  position: absolute;
+  left: 20px;
+  top: 174px;
+  display: inline-block;
+}
+.login .phoneNum .forget {
+  position: absolute;
+  left: 92px;
+  top: 182px;
+}
+.login .phoneNum .forget:hover {
+  cursor: pointer;
+}
+.login .phoneNum .remember {
+  width: 13px;
+  height: 13px;
+  background: #fff;
+  margin-left: 0;
+  margin-top: 32px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.login .phoneNum .loginBtn {
+  width: 340px;
+  height: 32px;
+  background: #5cb85c;
+  position: absolute;
+  left: 5px;
+  top: 220px;
+  border-radius: 5px;
+  color: #fff;
+}
+.login .phoneNum .signBtn {
+  width: 340px;
+  height: 32px;
+  background: #fff;
+  position: absolute;
+  left: 5px;
+  top: 260px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #000;
+}
+.login .phoneNum ul {
+  position: absolute;
+  left: 75px;
+  top: 302px;
+}
+.login .phoneNum ul li {
+  width: 20px;
+  height: 20px;
+  background: url(../images/login/thirdParty.jpg) no-repeat;
+  margin-left: 5px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.login .phoneNum ul .login1 {
+  background-position: left top;
+}
+.login .phoneNum ul .login2 {
+  background-position: -22px top;
+}
+.login .phoneNum ul .login3 {
+  background-position: -68px 2px;
+}
+.login .phoneNum ul .login4 {
+  background-position: -94px top;
+}
+.login .phoneNum ul .login5 {
+  background-position: -115px top;
+}
+.login .phoneNum .thirdParty {
+  position: absolute;
+  left: 5px;
+  top: 290px;
+  display: inline-block;
+}
+
+.incorrect {
+  position: absolute;
+  left: 0;
+  top: -10px;
+  color: #ff3333;
+}
+
+.forgetPwd {
+  width: 600px;
+  height: 300px;
+  background: #fff;
+  position: absolute;
+  left: 350px;
+  top: 200px;
+  border-radius: 10px;
+  z-index: 1;
+  display: none;
+}
+.forgetPwd .forUp {
+  width: 600px;
+  height: 56px;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+.forgetPwd .forUp:hover {
+  cursor: move;
+}
+.forgetPwd .forUp p {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+}
+.forgetPwd .forUp button {
+  width: 12px;
+  height: 10px;
+  background: #fff url(../images/login/close.jpg) no-repeat;
+  position: absolute;
+  left: 550px;
+  top: 20px;
+}
+.forgetPwd .forDown {
+  width: 600px;
+  height: 244px;
+  background: #fff;
+}
+.forgetPwd .forDown .import {
+  width: 224px;
+  height: 32px;
+  background: url(../images/login/inputBg.jpg);
+  margin-left: 180px;
+  margin-top: 80px;
+  margin-right: 0;
+  margin-bottom: 0;
+  border-radius: 0 5px 5px 0;
+}
+.forgetPwd .forDown button {
+  width: 36px;
+  height: 32px;
+  background: #eeeeee;
+  margin-left: -44px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  border-left: 1px solid #ccc;
+  border-radius: 0 3px 3px 0;
+  font-weight: bolder;
+}
+.forgetPwd .forDown p {
+  margin-left: 180px;
+  margin-top: 15px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #000;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.sign {
+  width: 550px;
+  height: 360px;
+  background: #fff;
+  margin-left: 135px;
+  margin-top: 2px;
+  margin-right: 0;
+  margin-bottom: 0;
+  position: relative;
+  left: 0;
+  top: 0;
+  float: left;
+}
+
+.cut {
+  width: 528px;
+  height: 40px;
+  background: #fff;
+  border-bottom: 1px solid #dddddd;
+}
+
+.under {
+  width: 528px;
+  height: 320px;
+  background: #fff;
+  display: block;
+}
+
+.under1 {
+  width: 528px;
+  height: 320px;
+  background: #fff;
+  display: none;
+}
+
+.show {
+  border: 1px solid #dddddd;
+  border-bottom: 1px solid #fff;
+}
+
+.hide {
+  border: none;
+  border-bottom: 1px solid #dddddd;
+}
+
+.phoneSign {
+  width: 88px;
+  height: 41px;
+  background: #fff;
+  margin-left: 1px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  font-size: 10px;
+  float: left;
+  border-radius: 8px 8px 0 0;
+}
+
+.mailSign {
+  width: 88px;
+  height: 41px;
+  background: #fff;
+  margin-left: 1px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  font-size: 10px;
+  float: left;
+  border-radius: 8px 8px 0 0;
+}
+
+.phone {
+  margin-left: 50px;
+  margin-top: 5px;
+  margin-right: 0;
+  margin-bottom: 5px;
+}
+
+.tel {
+  width: 342px;
+  height: 32px;
+  background: url(../images/login/inputBg.jpg) repeat;
+  margin-left: 50px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  border-radius: 5px;
+}
+
+.verify {
+  width: 170px;
+  height: 32px;
+  background: url(../images/login/inputBg.jpg) repeat;
+  margin-left: 50px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  border-radius: 5px;
+  float: left;
+}
+
+.verifyNum {
+  width: 120px;
+  height: 34px;
+  background: #5cb85c;
+  margin-left: 20px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  color: #fff;
+  text-align: center;
+  line-height: 34px;
+  border-radius: 5px;
+  float: left;
+}
+
+.hint {
+  margin-left: 55px;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 5px;
+  color: #ff3333;
+}
+.hint a {
+  color: #333333;
+}
+
+.yet {
+  margin-left: 55px;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 0;
+  float: left;
+}
+
+.read {
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 0;
+  float: left;
+}
+.read a {
+  color: #ff3333;
+}
+
+.btnSign {
+  width: 340px;
+  height: 32px;
+  background: #5cb85c;
+  position: absolute;
+  left: 50px;
+  top: 285px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.btnLogin {
+  width: 340px;
+  height: 32px;
+  background: #fff;
+  position: absolute;
+  left: 50px;
+  top: 325px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #000;
+}
+
+.correct {
+  position: absolute;
+  left: 370px;
+  top: 130px;
+  color: #ff3333;
 }
 
 .picture {
@@ -1068,6 +2080,12 @@ button {
   overflow: hidden;
   float: left;
 }
+.drink .beverage .turnPic .active {
+  background-color: red;
+}
+.drink .beverage .turnPic .default {
+  background-color: #000;
+}
 .drink .beverage .turnPic span {
   width: 10px;
   height: 10px;
@@ -1075,6 +2093,7 @@ button {
   border: 1px solid #fff;
   border-radius: 50%;
   z-index: 1;
+  cursor: pointer;
 }
 .drink .beverage .turnPic .drinkTurn {
   width: 800px;
@@ -1293,7 +2312,7 @@ button {
 }
 
 .span1 {
-  font-size: 30px;
+  font-size: 32px;
 }
 
 .fontP {
@@ -1335,6 +2354,10 @@ button {
   margin-right: 0;
   margin-bottom: 0;
   float: left;
+}
+
+#ui-id-1 li {
+  float: none;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -19,7 +19,7 @@
   }
   .phoneNum{
     @include setting(370px,335px);
-    @include distance(160px,20px);
+    @include distance(160px,25px);
     @include pos(relative);
     float:left;
     p{
@@ -30,11 +30,14 @@
       border-radius:5px;
     }
     .remem{
-      @include pos(absolute,20px,168px);
+      @include pos(absolute,20px,174px);
       display:inline-block;
     }
     .forget{
-      @include pos(absolute,92px,177px);
+      @include pos(absolute,92px,182px);
+      &:hover{
+        cursor: pointer;
+      }
     }
     .remember{
       @include setting(13px,13px);
@@ -71,4 +74,58 @@
       display:inline-block;
     }
   }
+}
+
+.incorrect{
+  @include pos(absolute,0,-10px);
+  color:$color;
+}
+.forgetPwd{
+  @include setting(600px,300px);
+  @include pos(absolute,350px,200px);
+  border-radius:10px;
+  z-index :1;
+  display:none;
+  .forUp{
+    @include setting(600px,56px);
+    border-bottom:1px solid #ccc;
+    &:hover{
+      cursor: move;
+    }
+    p{
+      font-size:18px;
+      font-weight:bold;
+      text-align:center;
+      line-height:50px;
+    }
+    button{
+      @include setting(12px,10px,#fff url(../images/login/close.jpg) no-repeat);
+      @include pos(absolute,550px,20px);
+    }
+  }
+  .forDown{
+    @include setting(600px,244px);
+    .import{
+      @include setting(224px,32px,url(../images/login/inputBg.jpg));
+      @include distance(180px,80px);
+      border-radius:0 5px 5px 0;
+    }
+    button{
+      @include setting(36px,32px,#eeeeee);
+      @include distance(-44px);
+      border-left:1px solid #ccc;
+      border-radius:0 3px 3px 0;
+      font-weight:bolder;
+    }
+    p{
+      @include distance(180px,15px);
+    }
+  }
+}
+.bg{
+  @include pos(absolute,0,0);
+  background-color:#000;
+  opacity:0.5;
+  filter: alpha(opacity = 50);
+
 }

@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link type="text/css" rel="stylesheet" href="css/main.css"/>
+    <link type="text/css" rel="stylesheet" href="css/jquery-ui.css"/>
 </head>
 <body>
 <div id="container">
     <div class="top">
-        <input type="text" placeholder="输入商品名称" class="search"/>
+        <!--<input type="text" placeholder="输入商品名称" class="search"/>-->
+        <input id="autocomplete" class="search" title="type &quot;a&quot;" placeholder="输入商品名称" />
         <button class="searchBtn"></button>
         <ul class="keyWord">
             <li>关键词:</li>
@@ -20,36 +22,42 @@
         </ul>
         <img src="images/index/lightting.jpg"/>
         <h3>闪猫欢迎您的光临</h3>
-        <a href="#" class="aLog">登录</a>或
-        <a href="#">注册</a>
+        <a href="html/login.html" class="aLog">登录</a>或
+        <a href="html/sign.html">注册</a>
     </div>
 
     <div class="menu">
         <ul class="clearfix">
             <li><a href="#">首页</a></li>
-            <li><a href="#">休闲零食</a></li>
+            <li>
+                <a href="#">休闲零食</a>
+                <ul class="snackUl snackUl1">
+                    <li>热销零食</li>
+                    <li>精品零食</li>
+                    <li>进口零食</li>
+                </ul>
+            </li>
             <li><a href="#">饮料冲饮</a></li>
             <li><a href="#">食品调料</a></li>
-            <li><a href="#">美容清洁</a></li>
-            <li><a href="#">进口精选</a></li>
+            <li>
+                <a href="#">美容清洁</a>
+                <ul class="snackUl snackUl2">
+                    <li>面膜</li>
+                    <li>洗面奶</li>
+                    <li>BB霜</li>
+                    <li>深层清洁</li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">进口精选</a>
+                <ul class="snackUl snackUl3">
+                    <li>生活用品</li>
+                    <li>厨房用品</li>
+                    <li>清洁用品</li>
+                </ul>
+            </li>
             <li><a href="#">学习/生活用品</a></li>
             <li><a href="#">香烟代购</a></li>
-        </ul>
-        <ul class="snackUl snackUl1">
-            <li>热销零食</li>
-            <li>精品零食</li>
-            <li>进口零食</li>
-        </ul>
-        <ul class="snackUl snackUl2">
-            <li>面膜</li>
-            <li>洗面奶</li>
-            <li>BB霜</li>
-            <li>深层清洁</li>
-        </ul>
-        <ul class="snackUl snackUl3">
-            <li>生活用品</li>
-            <li>厨房用品</li>
-            <li>清洁用品</li>
         </ul>
     </div>
 
@@ -469,5 +477,37 @@
 </div>
 </body>
 <script src="js/jquery-1.8.3.js"></script>
+<script src="js/indexDetailCommon.js"></script>
+<script src="js/jquery-ui.js"></script>
 <script src="js/homepage.js"></script>
+<script>
+    var availableTags = [
+        "Akdsljflksajf",
+        "Adsfgdfsg",
+        "Adfgfg",
+        "BAdfsgdfsg",
+        "Cdfsg",
+        "C++dsg",
+        "Clojurefdsg",
+        "COBOLsdfg",
+        "ColdFusion",
+        "Erlangfdsgfdsg",
+        "Fortranfdsgfd",
+        "Groovyfdsgfdg",
+        "Hasadfskell",
+        "Javaasdf",
+        "JavadsafdsfScript",
+        "Lispasdfds",
+        "Perlsdafds",
+        "PHPasdfsd",
+        "Pythonadsf",
+        "Rubyasdf",
+        "Scaladsaf",
+        "Schemesdafdsa"
+    ];
+    $( "#autocomplete" ).autocomplete({
+        source: availableTags
+    });
+</script>
+
 </html>

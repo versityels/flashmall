@@ -70,9 +70,6 @@
       cursor: pointer;
       border-right:1px solid #5a5a5a;
     }
-    .lastLi{
-      border-right:none;
-    }
   }
   .lastP{
     line-height:18px;
@@ -89,4 +86,7 @@
       @include distance(5px);
     }
   }
+}
+.lastLi{
+  border-right:none;
 }
